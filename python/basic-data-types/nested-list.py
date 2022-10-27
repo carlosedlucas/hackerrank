@@ -1,5 +1,9 @@
-
-lista = [[37.21, 'Harry'], [37.21, 'Berry'], [37.21, 'Tina'], [41.0, 'Akriti'], [39.0, 'Harsh'], [39.0, 'Harsh2'], [39.0, 'Harsh3'] ]
+if __name__ == '__main__':
+    lista = []
+    for _ in range(int(input())):
+        name = input()
+        score = float(input())
+        lista.append([score, name])
 
 lista_sorted = sorted(lista)
 minimo = min(lista_sorted)
